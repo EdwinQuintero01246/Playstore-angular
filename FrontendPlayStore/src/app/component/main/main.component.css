@@ -1,0 +1,203 @@
+@media (min-width: 1680px) {
+    .col-xxl{
+        width: 16.66666667%;
+    }
+}
+@media (max-width: 1368px) {
+    
+}
+@media (max-width: 1024px) {
+    #mainConfig{
+        padding:0px 50px !important;  
+    }
+
+}
+@media (max-width: 992px) {
+    #mainConfig{
+        padding:0px 15px !important;  
+    }
+}
+@media (max-width: 768px) {
+    #mainConfig{
+        padding:0px 15px !important;  
+    }
+}
+@media (max-width: 575px) {
+    #mainConfig{
+        padding:0px 5px !important;  
+    }
+   
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+#mainConfig{
+    padding-left: 100px;
+    padding-right: 100px;   
+}
+#rowConfi{
+    padding-top: 10px;
+    padding-bottom: 10px;}
+.UlConfModal{
+    text-decoration: none;
+    list-style-type: none;
+}
+.select-css{
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3…c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E),
+ linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+.select-css::-ms-expand {
+    display: none;
+  }
+  .select-css:hover {
+    border-color: #888;
+  }
+  .select-css:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+  }
+  .select-css option {
+    font-weight:normal;
+  }
+  .confiAppStyle{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    font-weight: 600;
+    -webkit-box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+  }
+
+.confiAppStyle:hover{
+  background-color: #E0A800;
+  color: #fff;
+}
+.UlConfApp{
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0px;
+}
+.ImgApss{
+  width: 100%;
+}
+.ImgEstrelas{
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#generarDinamicoLasApp{padding-bottom: 10px;}
+.FaiconYellow{
+    color: #E0A800 !important;
+}
+.confiAppStyle:hover .FaiconYellow{
+    color: #fff !important;
+}
+.FaiconBlack{
+    color: #F9F396 !important;
+}
+.confiAppStyle:hover .FaiconBlack{
+    color:#99a2aa !important;
+}
+/*
+amarillo medio  #E0A800
+amarillo fuerte #FEF200
+amarillo suave #F9F396
+*/
+#ModalImagen{
+    padding-bottom: 15px !important; 
+}
+.infoApp .nameApp{
+    font-size: 25px !important;
+    font-weight: 900;
+    color: #E0A800;
+}
+.infoApp .nameDeveloper{
+    font-size: 15px !important;
+    font-weight: 900;
+    color: #7c5209;
+}
+.infoApp .nameDescription{
+    font-size: 12px !important;
+    font-weight: 900;
+    color: #7c5209;
+}
+.divComentarios{
+    padding-left: 10px;
+}
+.divComentarios h1{
+    margin-bottom: 0px;
+}
+.divComentarios h2{
+    font-size: 16px !important;
+    text-align: end;
+    border-bottom: 1px solid #E0A800 !important;
+}
+.cursorPoint{
+    cursor: pointer;
+}
+.Plus{
+    font-size: 35px;
+    color: #E0A800;
+    display: block;
+    margin-left: auto;
+}
+.lettersPlusADD{
+    margin-bottom: 0px;
+    text-align: end;
+    font-size: larger;
+}
+.Plus:hover{
+    color: #7c5209;
+}
+.UPForm{
+    display: block;
+    margin-left: auto;
+    text-transform: capitalize;
+    color: white;
+    background-color: #E0A800;
+    border-color: #E0A800;
+}
+.UPForm:hover {
+    color: white;
+    background-color: #7c5209;
+    border-color: #E0A800;
+}
+.btn-create-app{
+    margin-left: auto;
+    color: #ffffff !important;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.errorModal{
+    color: #E0A800;
+    font-size: x-large;
+    border: 1px solid red;
+    padding: 10px 15px;
+}

@@ -1,0 +1,20 @@
+//obtener las categorias
+
+db.categorias.find({},{_id:true,nombreCategoria:true}).pretty();
+
+
+// obtener una categoria
+db.categorias.find({_id:'60ff75d64784923d0bcd48d3'}).pretty()
+
+db.categorias.find({_id:ObjectId("60ff75d64784923d0bcd48d2"),"aplicaciones.Id":},{}).pretty()
+
+
+//obtener informacion de app
+db.categorias.find({_id:ObjectId("60ff75d64784923d0bcd48d2"),"aplicaciones":[{_id:ObjectId("60ff75d64784923d0bcd480a")}]},{}).pretty()
+
+// eliminar una app de una categoria
+db.categorias.update(
+    {_id: ObjectId("61005a1ff3ba4a20a5ccaa73" )},
+    { $pull : { aplicaciones: { _id : ObjectId("61005a1ff3ba4a20a5cca9f6" ) } }},
+    {multi: true }
+)
